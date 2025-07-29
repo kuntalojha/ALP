@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Advanced Linux Programming
-      link: /alp
+      link: /alp/
     - theme: alt
       text: Advanced Linux Programming Lab
       link: /alplab
