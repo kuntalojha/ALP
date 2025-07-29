@@ -6,12 +6,12 @@ hero:
   text: 'Assistant Professor'
   tagline: 'Department of Computer Science & Engineering'
   actions:
-    - theme: alt
-      text: Advanced Linux Programming
-      link: /ds
     - theme: brand
+      text: Advanced Linux Programming
+      link: /alp
+    - theme: alt
       text: Advanced Linux Programming Lab
-      link: /dslab
+      link: /alplab
     - theme: brand
       text: Assignment
       link: /assignment

@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Advanced Linux Programming',
-  base: '/alp/',
+  base: '/ALP/',
   description: 'NOTE',
 
   themeConfig: {
@@ -15,7 +15,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Data Structure',
+        text: 'Advanced Linux Programming',
         items: [
           { text: 'Module 01', link: '/alp/modules/module-1/module-1' },
           { text: 'Module 02', link: '/alp/modules/module-2/module-2' },
@@ -25,7 +25,7 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Data Structure Lab',
+        text: 'Advanced Linux Programming Lab',
         items: [
           { text: 'Experiment 01', link: '/alplab/exp-1.md' },
           { text: 'Experiment 02', link: '/alplab/exp-2.md' },
