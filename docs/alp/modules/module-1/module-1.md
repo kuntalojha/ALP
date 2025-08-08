@@ -45,7 +45,7 @@ built on the Linux kernel.
 6. Compatibility
 7. Choice
 8. First and easy to install
-9. Fill use of hard disk
+9. Full use of hard disk
 10. Multitasking
 11. Security
 12. Open-Source
