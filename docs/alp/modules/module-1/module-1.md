@@ -37,7 +37,7 @@ built on the Linux kernel.
 7. Security
 
 ## Advantages
-1. Low Cose
+1. Low Cost
 2. Stability
 3. Performance
 4. Network Friendliness
