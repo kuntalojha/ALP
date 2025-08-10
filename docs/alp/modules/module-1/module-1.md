@@ -175,7 +175,7 @@ under the root entry "/". That part of the directory tree is left out of the bel
   - Contains binary executables.
   - Common linux commands you need to use in single-user modes are located under this directory.
   - Commands used by all the users of the system are located here.
-  - For example: ps, ls, ping, grep, cp.
+  - For example: bash, ps, ls, ping, grep, cp.
 
 **3. `/sbin` – System Binaries**
   - Just like /bin, /sbin also contains binary executables.
