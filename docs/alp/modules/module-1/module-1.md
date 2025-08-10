@@ -148,7 +148,7 @@ are Open Source as well.
   5. Posix interface 
  
 ## Layered Architecture: 
-   ![Layered Architecture](/docs/images/linux_architecture.jpg)
+   ![Layered Architecture](/images/linux_architecture.jpg)
 - Linux System Architecture is consists of following layers 
 
 1. **Hardware layer:** − Hardware consists of all peripheral devices (RAM/ HDD/ CPU etc).
@@ -164,7 +164,7 @@ are Open Source as well.
 documentation. Parts of a Unix directory tree are listed below. All directories are grouped 
 under the root entry "/". That part of the directory tree is left out of the below diagram.
 
-![LINUX File system](/docs/images/filesystem-structure.png)
+![LINUX File system](/images/filesystem_structure.png)
 
 **1. `/` – Root**
   - Every single file and directory starts from the root directory.
