@@ -37,7 +37,7 @@ built on the Linux kernel.
 7. Security
 
 ## Advantages
-1. Low Cose
+1. Low Cost
 2. Stability
 3. Performance
 4. Network Friendliness
@@ -45,7 +45,7 @@ built on the Linux kernel.
 6. Compatibility
 7. Choice
 8. First and easy to install
-9. Fill use of hard disk
+9. Full use of hard disk
 10. Multitasking
 11. Security
 12. Open-Source
