@@ -290,3 +290,4 @@ under the root entry "/". That part of the directory tree is left out of the bel
      - In the above example the output is redirected to new file3.txt.
      - The cat command will create new file file3.txt and store the concatenated output into file3.txt.
 
+## **2.

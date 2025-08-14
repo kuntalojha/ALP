@@ -9,7 +9,8 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Question', link: '/question' }, // fixed: added leading slash
+      { text: 'Question', link: '/question' }, 
+      { text: 'Syllabus', link: '/syllabus' }, 
     ],
 
     sidebar: [
