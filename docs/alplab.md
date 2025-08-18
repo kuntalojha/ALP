@@ -5,6 +5,7 @@ outline: auto
 # Advanced Linux Programming Lab Experiments
 **Here are the experiments:**
 
+- [Linux Commands](alplab/linux-commands)
 - [Experiment 01](alplab/exp-1)
 - [Experiment 02](alplab/exp-2)
 - [Experiment 03](alplab/exp-3)
