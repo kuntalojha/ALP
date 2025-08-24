@@ -290,4 +290,22 @@ under the root entry "/". That part of the directory tree is left out of the bel
      - In the above example the output is redirected to new file3.txt.
      - The cat command will create new file file3.txt and store the concatenated output into file3.txt.
 
-## **2.
+## **2. `touch` command**
+
+### **Purpose:**
+  - `touch` command used to Creat Empty file and  Update the access and modification times of each FILE to the current time.
+
+### **Syntax:**
+  - ` touch [OPTION]... FILE...`
+
+### **Options:**
+ - `-a` → Change the access time of file. Do not change the modification time unless    
+ - `-c, --no-create` → do not create any files        
+ - `-d, --date=STRING` →  parse STRING and use it instead of current time
+ - `-m` →  change only the modification time
+ - `-r, --reference=FILE` →  use this file's times instead of current time
+ - `-t STAMP` →  use [[CC]YY]MMDDhhmm[.ss] instead of current time
+ - `--help` → display this help and exit
+ - `--version` →  output version information and exit    
+
+### **Example:**
