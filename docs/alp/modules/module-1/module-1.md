@@ -304,8 +304,31 @@ under the root entry "/". That part of the directory tree is left out of the bel
  - `-d, --date=STRING` →  parse STRING and use it instead of current time
  - `-m` →  change only the modification time
  - `-r, --reference=FILE` →  use this file's times instead of current time
- - `-t STAMP` →  use [[CC]YY]MMDDhhmm[.ss] instead of current time
+ - `-t STAMP` →  Use the specified time instead of the current time. time will be a decimal number of the form
+   - [[CC]YY]MMDDhhmm[.ss]     
+   - CC - The first two digits of the year(the century,optional). 
+   - YY - The second two digits of the year. 
+   - MM - The month of the year [01-12]. 
+   - DD - The day of the month [01-31]. 
+   - hh - The hour of the day [00-23]. 
+   - mm - The minute of the hour [00-59]. 
+   - ss - The second of the minute [00-59] optional.    
  - `--help` → display this help and exit
  - `--version` →  output version information and exit    
 
 ### **Example:**
+1. To create a new file
+   - `touch new_file.txt`
+   - This command creates a new file new_file.txt.
+2. To update the modification times of a file
+   - `touch -m new_file.txt`
+   - This command updates the modification times of a file new_file.txt
+3. To update the access and modification times of a file using another file 
+  - `touch -r resource_file.txt target_file.txt` 
+  - This command will update the access and modification times of target_file.txt using the access and modification times of resource_file.txt.
+4. To set the time stamp of a file 
+  - `touch -t [[CC]YY]MMDDhhmm[.ss] new_file.txt`
+  - `touch -t 202503261230 new_file.txt`
+  - This command will set the time stamp of new_file.txt to 2025-03-26 12:30:00
+  - `touch -t 202503261230.40 new_file.txt`
+  - This command will set the time stamp of new_file.txt to 2025-03-26 12:30:40
