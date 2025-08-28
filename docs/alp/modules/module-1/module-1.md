@@ -324,11 +324,33 @@ under the root entry "/". That part of the directory tree is left out of the bel
    - `touch -m new_file.txt`
    - This command updates the modification times of a file new_file.txt
 3. To update the access and modification times of a file using another file 
-  - `touch -r resource_file.txt target_file.txt` 
-  - This command will update the access and modification times of target_file.txt using the access and modification times of resource_file.txt.
+   - `touch -r resource_file.txt target_file.txt` 
+   - This command will update the access and modification times of target_file.txt using the access and modification times of resource_file.txt.
 4. To set the time stamp of a file 
-  - `touch -t [[CC]YY]MMDDhhmm[.ss] new_file.txt`
-  - `touch -t 202503261230 new_file.txt`
-  - This command will set the time stamp of new_file.txt to 2025-03-26 12:30:00
-  - `touch -t 202503261230.40 new_file.txt`
-  - This command will set the time stamp of new_file.txt to 2025-03-26 12:30:40
+   - `touch -t [[CC]YY]MMDDhhmm[.ss] new_file.txt`
+   - `touch -t 202503261230 new_file.txt`
+   - This command will set the time stamp of new_file.txt to 2025-03-26 12:30:00
+   - `touch -t 202503261230.40 new_file.txt`
+   - This command will set the time stamp of new_file.txt to 2025-03-26 12:30:40
+
+
+## **3. `cd` command**
+
+### **Purpose:**
+ - `cd` command used to change the current directory.
+### **Syntax:**
+- `cd `
+### **Options:**
+- 
+### **Example:**
+
+
+## **. ` ` command**
+
+### **Purpose:**
+- 
+### **Syntax:**
+- 
+### **Options:**
+- 
+### **Example:**
