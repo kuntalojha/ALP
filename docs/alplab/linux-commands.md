@@ -126,10 +126,20 @@ outline: deep
 - ```bash
   kuntal@ojha:~$ ls -l
   total 10
-  drwxr-xr-x 2 kuntal kuntal 4096 Jul 21 Desktop
-  drwxr-xr-x 4 kuntal kuntal 4096 Jul 21 Documents
-  drwxr-xr-x 2 kuntal kuntal 4096 Jul 21 Downloads
-  -rw-r-xr-x 2 kuntal kuntal 4096 Jul 21 hello_world.sh
+  drwxr-xr-x 2 kuntal kuntal 4096 Jul 21 13:00 Desktop
+  drwxr-xr-x 4 kuntal kuntal 4096 Jul 21 22:00  Documents
+  drwxr-xr-x 2 kuntal kuntal 4096 Jul 21 12:26 Downloads
+  -rw-r-xr-x 2 kuntal kuntal 4096 Jul 21 12:26 hello_world.sh
+  ```
+- ```bash
+  kuntal@ojha:~$ ls -al
+  total 15
+  drwxrwxr-x 2 kuntal kuntal 4096 Jul 21 12:26 .
+  drwxr-xr-x 3 kuntal kuntal 4096 Jul 21 12:26 ..
+  drwxr-xr-x 2 kuntal kuntal 4096 Jul 21 13:00 Desktop
+  drwxr-xr-x 4 kuntal kuntal 4096 Jul 21 22:00  Documents
+  drwxr-xr-x 2 kuntal kuntal 4096 Jul 21 12:26 Downloads
+  -rw-r-xr-x 2 kuntal kuntal 4096 Jul 21 12:26 hello_world.sh
   ```
 
 ## **11. `mkdir` Command**
@@ -144,13 +154,25 @@ outline: deep
    test
    ```
 
-## **12. ` ` Command**
+## **12. `cd` Command**
 ### **Purpose:**
-  - 
+  - `cd` command is used to change the current directory.
 ### **Syntax:**
-  - ` `
+  - `cd [dir]`
 ### **Example:**
-- 
+- ```bash
+    kuntal@ojha:~$ cd test
+    kuntal@ojha:~/test$
+  ```
+- ```bash
+    kuntal@ojha:~/test$ cd ..
+    kuntal@ojha:~$
+  ```
+- ```bash
+    kuntal@ojha:~/Desktop$ cd ~
+    kuntal@ojha:~$
+  ```
+
 ## **13. ` ` Command**
 ### **Purpose:**
   - 

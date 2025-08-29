@@ -334,17 +334,176 @@ under the root entry "/". That part of the directory tree is left out of the bel
    - This command will set the time stamp of new_file.txt to 2025-03-26 12:30:40
 
 
-## **3. `cd` command**
+## **3. `cd` Command**
+### **Purpose:**
+  - `cd` command is used to change the current directory.
+### **Syntax:**
+  - `cd [dir]`
+### **Options:**
+  - `-P` → print the full name of the directory.
+  
+### **Example:**
+- ```bash
+    kuntal@ojha:~$ cd test
+    kuntal@ojha:~/test$
+  ```
+- ```bash
+    kuntal@ojha:~/test$ cd ..
+    kuntal@ojha:~$
+  ```
+- ```bash
+    kuntal@ojha:~/Desktop$ cd ~
+    kuntal@ojha:~$
+  ```
+
+## **4. `mkdir` Command**
+### **Purpose:**
+  - `mkdir` command is used to create a directory.
+### **Syntax:**
+  - `mkdir [OPTION]... DIRECTORY...`
+### **Example:**
+- ```bash
+   root@ojha:~# mkdir test
+   root@ojha:~# ls
+   test
+  ```
+## **5. `pwd ` Command**
+### **Purpose:**
+  - `pwd` command is used to print the name of the  current working directory.
+### **Syntax:**
+  - `pwd`
+### **Example:**
+- ```bash
+   root@ojha:~# pwd
+   /home/kuntal
+   ```
+
+## **6. `ls ` Command**
+### **Purpose:**
+  - `ls` command is used to list the contents of a directory.
+### **Syntax:**
+  - ` ls [OPTION].. [FILE]..`
+### **Example:**
+- ```bash
+  kuntal@ojha:~ $ ls
+  Desktop Documents Downloads hello_world.sh
+  ```
+  
+- ```bash
+  kuntal@ojha:~$ ls -l
+  total 10
+  drwxr-xr-x 2 kuntal kuntal 4096 Jul 21 13:00 Desktop
+  drwxr-xr-x 4 kuntal kuntal 4096 Jul 21 22:00  Documents
+  drwxr-xr-x 2 kuntal kuntal 4096 Jul 21 12:26 Downloads
+  -rw-r-xr-x 2 kuntal kuntal 4096 Jul 21 12:26 hello_world.sh
+  ```
+- ```bash
+  kuntal@ojha:~$ ls -a
+  . .. Desktop Documents Downloads hello_world.sh
+  ```
+
+- ```bash
+  kuntal@ojha:~$ ls -al
+  total 15
+  drwxrwxr-x 2 kuntal kuntal 4096 Jul 21 12:26 .
+  drwxr-xr-x 3 kuntal kuntal 4096 Jul 21 12:26 ..
+  drwxr-xr-x 2 kuntal kuntal 4096 Jul 21 13:00 Desktop
+  drwxr-xr-x 4 kuntal kuntal 4096 Jul 21 22:00  Documents
+  drwxr-xr-x 2 kuntal kuntal 4096 Jul 21 12:26 Downloads
+  -rw-r-xr-x 2 kuntal kuntal 4096 Jul 21 12:26 hello_world.sh
+  ```
+
+
+## **. ` ` command**
 
 ### **Purpose:**
- - `cd` command used to change the current directory.
+- 
 ### **Syntax:**
-- `cd `
+- 
 ### **Options:**
 - 
 ### **Example:**
+## **. ` ` command**
 
+### **Purpose:**
+- 
+### **Syntax:**
+- 
+### **Options:**
+- 
+### **Example:**
+## **. ` ` command**
 
+### **Purpose:**
+- 
+### **Syntax:**
+- 
+### **Options:**
+- 
+### **Example:**
+## **. ` ` command**
+
+### **Purpose:**
+- 
+### **Syntax:**
+- 
+### **Options:**
+- 
+### **Example:**
+## **. ` ` command**
+
+### **Purpose:**
+- 
+### **Syntax:**
+- 
+### **Options:**
+- 
+### **Example:**
+## **. ` ` command**
+
+### **Purpose:**
+- 
+### **Syntax:**
+- 
+### **Options:**
+- 
+### **Example:**
+## **. ` ` command**
+
+### **Purpose:**
+- 
+### **Syntax:**
+- 
+### **Options:**
+- 
+### **Example:**
+## **. ` ` command**
+
+### **Purpose:**
+- 
+### **Syntax:**
+- 
+### **Options:**
+- 
+### **Example:**
+## **. ` ` command**
+
+### **Purpose:**
+- 
+### **Syntax:**
+- 
+### **Options:**
+- 
+### **Example:**
+## **. ` ` command**
+
+### **Purpose:**
+- 
+### **Syntax:**
+- 
+### **Options:**
+- 
+### **Example:**
 ## **. ` ` command**
 
 ### **Purpose:**
