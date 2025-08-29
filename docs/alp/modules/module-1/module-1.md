@@ -340,8 +340,8 @@ under the root entry "/". That part of the directory tree is left out of the bel
 ### **Syntax:**
   - `cd [dir]`
 ### **Options:**
-  - `-P` → print the full name of the directory.
-  
+- 
+
 ### **Example:**
 - ```bash
     kuntal@ojha:~$ cd test
@@ -361,12 +361,65 @@ under the root entry "/". That part of the directory tree is left out of the bel
   - `mkdir` command is used to create a directory.
 ### **Syntax:**
   - `mkdir [OPTION]... DIRECTORY...`
+
+### **Options:**
+- 
 ### **Example:**
 - ```bash
    root@ojha:~# mkdir test
    root@ojha:~# ls
    test
   ```
+
+## **5. `rmdir` Command**
+### **Purpose:**
+  - The `rmdir` command is used to remove an empty directory.
+### **Syntax:**
+  - `rmdir [OPTION]... DIRECTORY...`
+### **Options:**
+- 
+
+### **Example:**
+- ```bash
+   kuntal@ojha:~$ ls
+   test
+   kuntal@ojha:~$ rmdir test
+   ```
+
+## **6. `rm` Command**
+### **Purpose:**
+  - The `rm` command is used to remove a file.
+### **Syntax:**
+  - `rm [OPTION]... [FILE]...`
+### **Options:**
+-
+
+### **Example:**
+- ```bash
+   kuntal@ojha:~$ ls
+   test new_file.txt
+   kuntal@ojha:~$ rm test
+   test: cannot remove 'test': Is a directory 
+   kuntal@ojha:~$ rm new_file.txt
+   ```
+- ```bash
+   kuntal@ojha:~$ ls
+   test hello_world.sh
+   kuntal@ojha:~$ rm -r test
+   kuntal@ojha:~$ ls
+   hello_world.sh
+   ```
+- ```bash
+   kuntal@ojha:~$ ls
+   hello_world.sh books
+   kuntal@ojha:~$ cd books
+   kuntal@ojha:~/books$ ls
+   book1.txt book2.txt
+   kuntal@ojha:~/books$ cd ..
+   kuntal@ojha:~$ rm -rf books
+   kuntal@ojha:~$ ls
+   hello_world.sh
+   ```
 ## **5. `pwd ` Command**
 ### **Purpose:**
   - `pwd` command is used to print the name of the  current working directory.
@@ -383,6 +436,9 @@ under the root entry "/". That part of the directory tree is left out of the bel
   - `ls` command is used to list the contents of a directory.
 ### **Syntax:**
   - ` ls [OPTION].. [FILE]..`
+### **Options:**
+- 
+
 ### **Example:**
 - ```bash
   kuntal@ojha:~ $ ls

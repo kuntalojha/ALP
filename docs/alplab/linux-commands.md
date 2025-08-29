@@ -88,7 +88,7 @@ outline: deep
   - `uname [OPTION]...`
 ### **Example:**
 - ```bash
-   kuntal@ojha:~# uname
+   kuntal@ojha:~$ uname
    Linux
    ```
 
@@ -173,22 +173,51 @@ outline: deep
     kuntal@ojha:~$
   ```
 
-## **13. ` ` Command**
+## **13. `rmdir` Command**
 ### **Purpose:**
-  - 
+  - The `rmdir` command is used to remove an empty directory.
 ### **Syntax:**
-  - ` `
+  - `rmdir [OPTION]... DIRECTORY...`
 ### **Example:**
-- 
-## **14. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
+- ```bash
+   kuntal@ojha:~$ ls
+   test
+   kuntal@ojha:~$ rmdir test
+   ```
 
-## **15. ` ` Command**
+## **14. `rm` Command**
+### **Purpose:**
+  - The `rm` command is used to remove a file.
+### **Syntax:**
+  - `rm [OPTION]... [FILE]...`
+### **Example:**
+- ```bash
+   kuntal@ojha:~$ ls
+   test new_file.txt
+   kuntal@ojha:~$ rm test
+   test: cannot remove 'test': Is a directory 
+   kuntal@ojha:~$ rm new_file.txt
+   ```
+- ```bash
+   kuntal@ojha:~$ ls
+   test hello_world.sh
+   kuntal@ojha:~$ rm -r test
+   kuntal@ojha:~$ ls
+   hello_world.sh
+   ```
+- ```bash
+   kuntal@ojha:~$ ls
+   hello_world.sh books
+   kuntal@ojha:~$ cd books
+   kuntal@ojha:~/books$ ls
+   book1.txt book2.txt
+   kuntal@ojha:~/books$ cd ..
+   kuntal@ojha:~$ rm -rf books
+   kuntal@ojha:~$ ls
+   hello_world.sh
+   ```
+
+## **15. `cp` Command**
 ### **Purpose:**
   - 
 ### **Syntax:**
