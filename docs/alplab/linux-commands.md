@@ -219,13 +219,13 @@ outline: deep
 
 ## **15. `cp` Command**
 ### **Purpose:**
-  - 
+  - `cp` command is used to copy a file.
 ### **Syntax:**
-  - ` `
+  - `cp`
 ### **Example:**
 - 
 
-## **16. ` ` Command**
+## **16. `mv` Command**
 ### **Purpose:**
   - 
 ### **Syntax:**
@@ -233,7 +233,7 @@ outline: deep
 ### **Example:**
 - 
 
-## **17. ` ` Command**
+## **17. `cat` Command**
 ### **Purpose:**
   - 
 ### **Syntax:**
@@ -241,7 +241,7 @@ outline: deep
 ### **Example:**
 - 
 
-## **18. ` ` Command**
+## **18. `comm` Command**
 ### **Purpose:**
   - 
 ### **Syntax:**
@@ -249,7 +249,7 @@ outline: deep
 ### **Example:**
 - 
 
-## **19. ` ` Command**
+## **19. `diff` Command**
 ### **Purpose:**
   - 
 ### **Syntax:**
@@ -257,7 +257,7 @@ outline: deep
 ### **Example:**
 - 
 
-## **20. ` ` Command**
+## **20. `wc` Command**
 ### **Purpose:**
   - 
 ### **Syntax:**

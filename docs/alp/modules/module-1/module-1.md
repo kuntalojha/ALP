@@ -470,12 +470,12 @@ under the root entry "/". That part of the directory tree is left out of the bel
   ```
 
 
-## **. ` ` command**
+## **. `chmod ` command**
 
 ### **Purpose:**
-- 
+- The `chmod` command is used to change the permissions of a file or directory.
 ### **Syntax:**
-- 
+- `chmod [OPTION]...MODE[MODE] [FILE]...`
 ### **Options:**
 - 
 ### **Example:**
