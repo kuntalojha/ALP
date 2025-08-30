@@ -147,7 +147,15 @@ outline: deep
   -rw-r-xr-x 2 kuntal kuntal 4096 Jul 21 12:26 hello_world.sh
   ```
 
-## **11. `mkdir` Command**
+## **11. `chmod ` Command**
+### **Purpose:**
+  - 
+### **Syntax:**
+  - ` `
+### **Example:**
+- 
+
+## **12. `mkdir` Command**
 ### **Purpose:**
   - `mkdir` command is used to create a directory.
 ### **Syntax:**
@@ -159,7 +167,7 @@ outline: deep
    test
    ```
 
-## **12. `cd` Command**
+## **13. `cd` Command**
 ### **Purpose:**
   - `cd` command is used to change the current directory.
 ### **Syntax:**
@@ -178,7 +186,7 @@ outline: deep
     kuntal@ojha:~$
   ```
 
-## **13. `rmdir` Command**
+## **14. `rmdir` Command**
 ### **Purpose:**
   - The `rmdir` command is used to remove an empty directory.
 ### **Syntax:**
@@ -190,7 +198,7 @@ outline: deep
    kuntal@ojha:~$ rmdir test
    ```
 
-## **14. `rm` Command**
+## **15. `rm` Command**
 ### **Purpose:**
   - The `rm` command is used to remove a file.
 ### **Syntax:**
@@ -222,7 +230,7 @@ outline: deep
    hello_world.sh
    ```
 
-## **15. `cp` Command**
+## **16. `cp` Command**
 ### **Purpose:**
   - `cp` command is used to copy a file.
 ### **Syntax:**
@@ -230,7 +238,7 @@ outline: deep
 ### **Example:**
 - 
 
-## **16. `mv` Command**
+## **17. `mv` Command**
 ### **Purpose:**
   - 
 ### **Syntax:**
@@ -238,7 +246,7 @@ outline: deep
 ### **Example:**
 - 
 
-## **17. `cat` Command**
+## **18. `cat` Command**
 ### **Purpose:**
   - 
 ### **Syntax:**
@@ -246,7 +254,7 @@ outline: deep
 ### **Example:**
 - 
 
-## **18. `comm` Command**
+## **19. `comm` Command**
 ### **Purpose:**
   - 
 ### **Syntax:**
@@ -254,7 +262,7 @@ outline: deep
 ### **Example:**
 - 
 
-## **19. `diff` Command**
+## **20. `diff` Command**
 ### **Purpose:**
   - 
 ### **Syntax:**
@@ -262,15 +270,7 @@ outline: deep
 ### **Example:**
 - 
 
-## **20. `wc` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-## **21. ` ` Command**
+## **21. `wc` Command**
 ### **Purpose:**
   - 
 ### **Syntax:**
