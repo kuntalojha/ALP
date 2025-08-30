@@ -122,6 +122,11 @@ outline: deep
   kuntal@ojha:~ $ ls
   Desktop Documents Downloads hello_world.sh
   ```
+
+- ```bash
+  kuntal@ojha:~ $ ls -a
+  . .. Desktop Documents Downloads hello_world.sh
+  ```
   
 - ```bash
   kuntal@ojha:~$ ls -l
