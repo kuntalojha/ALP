@@ -149,7 +149,7 @@ outline: deep
 
 ## **11. `chmod ` Command**
 ### **Purpose:**
-  - 
+  - `chmod` command is used to change the permissions of a file or directory.
 ### **Syntax:**
   - ` `
 ### **Example:**
