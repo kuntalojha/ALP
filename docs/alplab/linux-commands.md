@@ -149,12 +149,15 @@ outline: deep
 
 ## **11. `chmod ` Command**
 ### **Purpose:**
-  - `chmod` command is used to change the permissions of a file or directory.
+- The `chmod` command is used to change the permissions of a file or directory.
 ### **Syntax:**
-  - ` `
+- `chmod [OPTION]...MODE[MODE] [FILE]...`
 ### **Example:**
-- 
-
+- ```bash
+   kuntal@ojha:~$ ls  
+   Desktop Documents Downloads hello_world.sh
+   kuntal@ojha:~$ chmod 777 hello_world.sh
+   ```
 ## **12. `mkdir` Command**
 ### **Purpose:**
   - `mkdir` command is used to create a directory.
@@ -234,49 +237,121 @@ outline: deep
 ### **Purpose:**
   - `cp` command is used to copy a file.
 ### **Syntax:**
-  - `cp`
+  - `cp [OPTION]... SOURCE DIRECTORY`
 ### **Example:**
-- 
+- ```bash
+   kuntal@ojha:~$ ls
+   hello.txt new_file.txt
+   kuntal@ojha:~$ cp hello.txt new_file.txt
+   ```
+- ```bash
+   kuntal@ojha:~$ ls
+   hello.txt Desktop
+   kuntal@ojha:~$ cd Desktop
+   kuntal@ojha:~/Desktop$ ls
+   book.txt
+   kuntal@ojha:~/Desktop$ cd ..
+   kuntal@ojha:~$ cp hello.txt Desktop
+   kuntal@ojha:~$ cd Desktop
+   kuntal@ojha:~/Desktop$ ls
+   book.txt hello.txt
+   kuntal@ojha:~/Desktop$ cd ..
+   kuntal@ojha:~$ ls
+   hello.txt
+   ```
 
 ## **17. `mv` Command**
 ### **Purpose:**
-  - 
+  - `mv` command is used to move a file.
 ### **Syntax:**
-  - ` `
+  - `mv [OPTION]... SOURCE DIRECTORY`
 ### **Example:**
-- 
+- ```bash
+   kuntal@ojha:~$ ls
+   Desktop file.txt
+   kuntal@ojha:~$ mv file.txt Desktop
+   kuntal@ojha:~$ ls
+   Desktop
+   ```
 
 ## **18. `cat` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
 
+### **Purpose:**
+  - The `cat` linux command used to concatenates files and print it on the standard output.
+
+### **Syntax:**
+  - `cat [OPTIONS] [FILE]..`
+### **Example:**
+- ```bash
+   root@ojha:~# cat hello_world.sh
+   #!/bin/bash
+   echo "hello world"
+   root@ojha:~# 
+  ```
 ## **19. `comm` Command**
 ### **Purpose:**
-  - 
+  - The `comm` command is used to compare two files line by line.
 ### **Syntax:**
-  - ` `
+  - `comm [OPTION]... FILE1 FILE2`
 ### **Example:**
-- 
+<!-- - ```bash
+   root@ojha:~# cat file1.txt
+   line1
+   line2
+   line3
+   root@ojha:~# cat file2.txt
+   line1
+   line2
+   line4    
+   root@ojha:~# comm file1.txt file2.txt  
+                   line1
+                   line2
+   line3
+         line4
 
+   root@ojha:~#
+  ```  -->
 ## **20. `diff` Command**
 ### **Purpose:**
-  - 
+  - The `diff` command is used to compare two files line by line.
 ### **Syntax:**
-  - ` `
+  - `diff [OPTION]... FILES`
 ### **Example:**
-- 
-
+- ```bash
+   root@ojha:~# cat file1.txt
+   line1
+   line2
+   line3
+   root@ojha:~# cat file2.txt
+   line1
+   line2
+   line4    
+   root@ojha:~# diff file1.txt file2.txt  
+   3c3
+   < line3
+   ---
+   > line4
+  ```
 ## **21. `wc` Command**
 ### **Purpose:**
-  - 
+  - The `wc` command is used to count the number of lines, words and characters in a file.
 ### **Syntax:**
-  - ` `
+  - `we [OPTION]... [FILE]...`
+### **Options:**
+  - `-l` print the newline counts
+  - `-w` print the word counts
+  - `-c` print the byte counts
+  - `-m` print the character counts
 ### **Example:**
-- 
+- ```bash
+   root@ojha:~# cat file.txt
+   line1
+   line2
+   line3
+   root@ojha:~# wc file.txt
+   3 3 18 file.txt
+  ```
+  3 lines, 3 words, 18 bytes in file.txt
 
 ## **22. ` ` Command**
 ### **Purpose:**
