@@ -353,7 +353,81 @@ outline: deep
   ```
   3 lines, 3 words, 18 bytes in file.txt
 
-## **22. ` ` Command**
+## **22. `umask` Command**
+### **Purpose:**
+  - Display or set file mode mask. Sets the user file-creation mask to MODE. If MODE is omitted, print the current value of the mask.
+### **Syntax:**
+  - `umask [-p] [-S] [MODE] `
+### **Example:**
+- ```bash
+   root@ojha:~# umask
+   0022
+  ```
+
+## **23. `find ` Command**
+### **Purpose:**
+  - This command is used to find a file in a directory.
+### **Syntax:**
+  - `find [PATH] [OPTIONS] [expression]`
+### **Example:**
+- ```bash
+   root@ojha:~# find note"
+   note
+   note/note.text
+  ```
+
+## **24. `ps` Command**
+### **Purpose:**
+  - Thse command is used to display information about processes.
+### **Syntax:**
+  - `ps [options]`
+### **Example:**
+- ```bash
+   kuntal@ojha:~$ ps
+   PID TTY       TIME     CMD
+   2795 pts/0    00:00:00 bash
+   2796 pts/0    00:00:00 ps
+   ```
+## **25. `du` Command**
+### **Purpose:**
+  - This `du` command is used summarize device usage of the set of FILEs, respectively for directories.
+### **Syntax:**
+  - `du [OPTION]... [FILE]...`
+### **Example:**
+- ```bash
+   root@ojha:~# du book
+   12 book/story
+   20 book
+   ```
+
+## **26. `df` Command**
+### **Purpose:**
+  - Show information about the files system on which each FILE resides, or all file systems by default.
+### **Syntax:**
+  - ` df [OPTION]... [FILE]...`
+### **Example:**
+- ```bash
+   root@ojha:~# df -h
+   Filesystem      Size  Used Avail Use% Mounted on
+   /dev/sda1       20G  1.2G  18G  6% /
+   tmpfs           3.9G     0  3.9G   0% /dev/shm
+   /dev/sda2       20G  1.2G  18G  6% /home
+   ```
+
+## **27. `free` Command**
+### **Purpose:**
+  - This command is used to display the amount of free and used memory.
+### **Syntax:**
+  - `free [option]`
+### **Example:**
+- ```bash -h
+   root@ojha:~# free
+   total        used        free      shared  buffers     cached
+   1.0G        1.0G        0.0B        0.0B   0.0B        0.0B
+   Swap        0.0B        0.0B
+  ```
+
+## **28. `mount` Command**
 ### **Purpose:**
   - 
 ### **Syntax:**
@@ -361,149 +435,129 @@ outline: deep
 ### **Example:**
 - 
 
-## **23. ` ` Command**
+## **28. `mount` Command**
+
 ### **Purpose:**
-  - 
+- The `mount` command is used to **attach a filesystem or device** (like a USB drive, hard disk partition, CD/DVD, or ISO file) to the Linux directory tree so its contents can be accessed.
+
 ### **Syntax:**
-  - ` `
+  - `mount [option]`
+<!-- 
+### **Examples:**
+- Mount a USB drive partition:
+  ```bash
+  sudo mount /dev/sdb1 /mnt 
+  ```
+-->
+
+
+## **29. `ulimit` Command**
+### **Purpose:**
+  - Modyfy resource limits. Provides control over the resources available to the shell precesses it creates, on systems theat allow such control.
+### **Syntax:**
+  - `mount [option]`
 ### **Example:**
+- ```bash
+   kuntal@ojha:~$ ulimit
+   unlimited
+   ```
+
+## **30. `finger` Command**
+### **Purpose:**
+  - User information lookup program.
+### **Syntax:**
+  - `finger [option]`
+### **Example:**
+- ```bash
+   kuntal@ojha:~$ finger
+   Login Name Tty      Idle Time  Login Time Offic Offic Phone
+   kuntal  kuntal  seat0    Aug  7  2019  00:00  00:00  00:00
+   ```
+
+## **31. `cut` Command**
+### **Purpose:**
+  - Print selected parts of lines from each FILE to standard output.
+### **Syntax:**
+  - `cut [option]... [FILE]...`
+### **Example:**
+- ```bash
+   kuntal@ojha:~$ cat file.txt
+   hello world
+   Kuntal Ojha
+   JBIET
+   kuntal@ojha:~$ cut -c 1-6 file.txt
+   hello
+   Kuntal
+   JBIET
+  ```
+
+## **32. `paste` Command**
+
+### **Purpose:**
+- The `paste` command is used to **merge lines of multiple files side by side** (horizontally).
+- It outputs lines from each file separated by a tab (by default).
+
+### **Syntax:**
+- `paste [options] file1 file2 ...`
+
+### **Examples:**
+- Merge two files line by line:
+  ```bash
+  paste file1.txt file2.txt
+  ```
+
+## **33. `sort` Command**
+
+### **Purpose:**
+- The `sort` command is used to **arrange lines of text files** in ascending or descending order.
+- It can sort alphabetically, numerically, by month, or even by a custom column.
+
+### **Syntax:**
+- `sort [OPTION]... [FILE]...`
+
+### **Examples:**
+- Sort a file alphabetically:
+  ```bash
+     kuntal@ojha:~$ cat file.txt
+     hello world
+     Kuntal Ojha
+     JBIET
+     kuntal@ojha:~$ sort file.txt
+     hello world
+     JBIET
+     Kuntal Ojha
+  ```
+
+## **34. `grep` Command**
+
+### **Purpose:**
+- The `grep` command is used to **search for patterns** (text/regex) in files or input.
+- It prints the lines that match the given pattern.
+
+### **Syntax:**
+- `grep [OPTION] PATTERN [FILE]...`
+
+### **Examples:**
+- `-i` ignore case
+- Search for the word "hello" in a file:
+  ```bash
+     kuntal@ojha:~$ cat file.txt
+     hello world
+     Kuntal Ojha
+     JBIET
+     kuntal@ojha:~$ grep -i "kuntal" file.txt
+     Kuntal Ojha
+  ```
+
+## **35. `nano ` Command**
+### **Purpose:**
+  - This a text editor. We can use it to edit the files. 
+### **Syntax:**
+  - `nano [option] [FILE]...`
+### **Example:**
+- This command will create a new file and open it on nano editor.
+  - ```bash
+   kuntal@ojha:~$ nano file.txt
+   ```
 - 
-
-## **24. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-## **25. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-## **26. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-## **27. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-## **28. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-## **29. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-## **30. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-## **31. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-## **32. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-## **33. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
--
-
-## **34. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
--
-
-## **35. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
--
-
-## **36. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-## **37. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
--
-
-## **38. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-## **39. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-## **40. ` ` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-
-
 
