@@ -556,8 +556,7 @@ outline: deep
   - `nano [option] [FILE]...`
 ### **Example:**
 - This command will create a new file and open it on nano editor.
-  - ```bash
-   kuntal@ojha:~$ nano file.txt
-   ```
-- 
+- ```bash
+      kuntal@ojha:~$ nano file.txt
+  ```
 
