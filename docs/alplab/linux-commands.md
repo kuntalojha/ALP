@@ -428,14 +428,6 @@ outline: deep
   ```
 
 ## **28. `mount` Command**
-### **Purpose:**
-  - 
-### **Syntax:**
-  - ` `
-### **Example:**
-- 
-
-## **28. `mount` Command**
 
 ### **Purpose:**
 - The `mount` command is used to **attach a filesystem or device** (like a USB drive, hard disk partition, CD/DVD, or ISO file) to the Linux directory tree so its contents can be accessed.
