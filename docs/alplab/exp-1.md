@@ -21,8 +21,13 @@ echo "Enter the ending line number: "
 read e_line
 
 # Extract the lines
-sed -n "${s_line}, ${e_line}p"  "$filename" > newfile.txt
+sed -n "${s_line},${e_line}p"  "$filename" > newfile.txt
 
 echo "The extracted lines are:"
 cat newfile.txt
+```
+
+## Output
+```bash
+
 ```
