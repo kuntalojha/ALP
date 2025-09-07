@@ -447,7 +447,7 @@ outline: deep
 ### **Purpose:**
   - Modyfy resource limits. Provides control over the resources available to the shell precesses it creates, on systems theat allow such control.
 ### **Syntax:**
-  - `mount [option]`
+  - `ulimit [option]`
 ### **Example:**
 - ```bash
    kuntal@ojha:~$ ulimit
