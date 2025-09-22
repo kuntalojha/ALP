@@ -11,6 +11,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Question', link: '/question' }, 
       { text: 'Syllabus', link: '/syllabus' }, 
+      { text: 'Assignment Submission Details', link: 'https://docs.google.com/spreadsheets/d/1t6MjfKk-TOmJ65-FTteY8a0rY7nJ7DU5caaxpmnrMWc/edit?usp=sharing' }, 
     ],
 
     sidebar: [
