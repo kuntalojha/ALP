@@ -454,17 +454,16 @@ outline: deep
    unlimited
    ```
 
-## **30. `finger` Command**
+## **30. `vi` Command**
 ### **Purpose:**
-  - User information lookup program.
+  - The `vi` command is a text editor in Linux used to create or edit files.
 ### **Syntax:**
-  - `finger [option]`
+  - `vi [option] [FILE]`
 ### **Example:**
+- This command will create a new file and open it on vi editor.
 - ```bash
-   kuntal@ojha:~$ finger
-   Login Name Tty      Idle Time  Login Time Offic Offic Phone
-   kuntal  kuntal  seat0    Aug  7  2019  00:00  00:00  00:00
-   ```
+      kuntal@ojha:~$ vi file.txt
+  ```
 
 ## **31. `cut` Command**
 ### **Purpose:**
