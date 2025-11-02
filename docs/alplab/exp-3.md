@@ -5,7 +5,7 @@ outline: deep
 # Experiment 3
 
 ## Question
-- Write a shell script that displays a list of all the files in the current directory to which the user has read, write and execute permissions.
+- **Write a shell script that displays a list of all the files in the current directory to which the user has read, write and execute permissions.**
 
 ## Program
 ```bash [exp3.sh]
@@ -18,4 +18,9 @@ for file in *; do
   echo "$file"
  fi
 done
+```
+
+## Output
+```bash
+
 ```

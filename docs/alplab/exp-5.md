@@ -10,7 +10,7 @@ reports the occurrence of each word that is present in the first argument file o
 argument files.
 
 ## Program
-```bash [exp5.sh]
+```bash [exp-5.sh]
 #!/bin/bash
 
 if [ $# -ne 2 ]
@@ -25,4 +25,9 @@ for a in $str
 do
 echo "Word = $a, Count = `grep -c "$a" $2`"
 done
+```
+
+## Output
+```bash
+
 ```

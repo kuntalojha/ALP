@@ -7,10 +7,10 @@ outline: deep
 ## Question
 - Write a shell script that receives any number of file names as arguments checks if 
 every argument supplied is a file or a directory and reports accordingly. Whenever 
-the argument is a file, the number of lines on it is also reported.
+the argument is a file, the number of lines on it is also reported.**
 
 ## Program
-```bash [exp4.sh]
+```bash [exp-4.sh]
 #!/bin/bash
 
 for x in "$@"
@@ -28,3 +28,7 @@ for x in "$@"
 done
 ```
 
+## Output
+```bash
+
+```

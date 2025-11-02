@@ -8,7 +8,7 @@ outline: deep
 - Write an awk script to count the number of lines in a file that do not contain vowels.
 
 ## Program:
-```bash [exp8.sh]
+```bash [exp-8.sh]
 #!/bin/bash
 
 # Check if exactly one argument is provided
@@ -36,7 +36,6 @@ END {
 
 ## Output:
 ```bash
-
 
 ```
 

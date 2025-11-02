@@ -8,7 +8,7 @@ outline: deep
 - Write a shell script to find factorial of a given number.
 
 ## Program:
-```bash [exp7.sh]
+```bash [exp-7.sh]
 #!/bin/bash
 
 echo "Enter a number:"
@@ -22,4 +22,9 @@ do
 done
 
 echo "Factorial of $num is: $fact"
+```
+
+## Output
+```bash
+
 ```

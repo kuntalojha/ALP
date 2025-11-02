@@ -5,11 +5,10 @@ outline: deep
 # Experiment 2
 
 ## Question
-- Write a shell script that deletes all lines containing a specified word in one or more 
-files supplied as arguments to it.
+- **Write a shell script that deletes all lines containing a specified word in one or more files supplied as arguments to it.**
 
-### Program
-```bash [exp2.sh]
+## Program
+```bash [exp-2.sh]
 #!/bin/bash
 
 echo "Enter the file name:"
@@ -27,4 +26,9 @@ mv temp "$filename"
 
 echo "The contents after deleting"
 cat "$filename"
+```
+
+## Output
+```bash
+
 ```

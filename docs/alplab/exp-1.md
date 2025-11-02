@@ -5,11 +5,10 @@ outline: deep
 # Experiment 1
 
 ## Question
-- Write a shell script that accepts a file name, starting and ending line numbers as 
-arguments and displays all the lines between the given line numbers.
+- **Write a shell script that accepts a file name, starting and ending line numbers as arguments and displays all the lines between the given line numbers.**
 
 ## Program
-```bash [exp1.sh]
+```bash [exp-1.sh]
 #!/bin/bash
 echo "Enter the file name: "
 read filename
