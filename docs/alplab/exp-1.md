@@ -28,5 +28,31 @@ cat newfile.txt
 
 ## Output
 ```bash
-
+kuntal@ojha:~/linux/exp1$ cat data.text
+line one
+line two
+line three
+line four
+line five
+line six
+line seven
+line eight
+line nine
+line ten
+kuntal@ojha:~/linux/exp1$ chmod 777 exp1.sh
+kuntal@ojha:~/linux/exp1$ ./exp1.sh
+Enter the file name:
+data.text
+Enter the starting line number:
+4
+Enter the ending line number:
+8
+The extracted lines are:
+line four
+line five
+line six
+line seven
+line eight
+kuntal@ojha:~/linux/exp1$ ^C
+kuntal@ojha:~/linux/exp1$ 
 ```
