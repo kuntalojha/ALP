@@ -53,6 +53,5 @@ line five
 line six
 line seven
 line eight
-kuntal@ojha:~/linux/exp1$ ^C
 kuntal@ojha:~/linux/exp1$ 
 ```
