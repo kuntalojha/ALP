@@ -30,5 +30,20 @@ cat "$filename"
 
 ## Output
 ```bash
-
+kuntal@ojha:~/linux/exp2$ ls
+data.text  exp2.sh
+kuntal@ojha:~/linux/exp2$ chmod 777 exp2.sh
+kuntal@ojha:~/linux/exp2$ ./exp2.sh
+Enter the file name:
+data.text
+The contents before deleting:
+Hello World
+Delete this line
+Another Line
+Enter the word to be deleted: 
+delete
+The contents after deleting
+Hello World
+Another Line
+kuntal@ojha:~/linux/exp2$ 
 ```
