@@ -26,5 +26,10 @@ echo "Factorial of $num is: $fact"
 
 ## Output
 ```bash
-
+kuntal@ojha:~/linux/exp7$ chmod 777 exp7.sh
+kuntal@ojha:~/linux/exp7$ ./exp7.sh
+Enter a number:
+5
+Factorial of 5 is: 120
+kuntal@ojha:~/linux/exp7$
 ```
