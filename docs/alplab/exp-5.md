@@ -29,5 +29,14 @@ done
 
 ## Output
 ```bash
-
+kuntal@ojha:~/linux/exp5$ ls
+comp.txt  data.txt  exp5.sh
+kuntal@ojha:~/linux/exp5$ chmod 777 exp5.sh
+kuntal@ojha:~/linux/exp5$ ./exp5.sh data.txt comp.txt
+Word = apple, Count = 0
+Word = banana, Count = 2
+Word = cat, Count = 0
+Word = dog, Count = 0
+Word = man, Count = 2
+kuntal@ojha:~/linux/exp5$
 ```
