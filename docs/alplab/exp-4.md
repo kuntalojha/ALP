@@ -30,5 +30,17 @@ done
 
 ## Output
 ```bash
-
+kuntal@ojha:~/linux/exp4$ ls
+cse  exp1.sh  exp2.sh  exp4.sh  file.txt  student
+kuntal@ojha:~/linux/exp4$ chmod 777 exp4.sh
+kuntal@ojha:~/linux/exp4$ ./exp4.sh cse student exp1.sh exp2.sh
+cse is a directory
+student is a directory
+exp1.sh is a file
+Number of lines in exp1.sh:
+15
+exp2.sh is a file
+Number of lines in exp2.sh:
+16
+kuntal@ojha:~/linux/exp4$
 ```
