@@ -9,33 +9,36 @@ outline: deep
 
 ## Program:
 ```bash [exp-8.sh]
-#!/bin/bash
+#!/usr/bin/awk -f
 
-# Check if exactly one argument is provided
-if [ $# -ne 1 ]
-then
-  echo "Usage: ./bash_filename.sh <file_name>"
-  exit 1
-fi
+# Count lines that do NOT contain vowels
+!/a|e|i|o|u|A|E|I|O|U/ {
+  count++
+}
 
-# Run AWK command
-awk '
-BEGIN {
-  line_count = 0
-}
-# Match lines that do NOT contain vowels (a, e, i, o, u)
-!/[aeiouAEIOU]/ {
-  line_count++
-  print
-}
 END {
-  printf "Number of lines which do not contain vowels = %d\n", line_count
+  print "Number of lines without vowels =", count
 }
-' "$1"
 ```
 
 ## Output:
 ```bash
+kuntal@ojha:~/linux/exp8$ cat data.text
+one 
+abcd
+two
+pqrs
+three
+lmnop
+four
+five
+six
+abcd
 
+
+kuntal@ojha:~/linux/exp8$ chmod 777 exp8.sh
+kuntal@ojha:~/linux/exp8$ ./exp8.sh data.text
+Number of lines without vowels = 3
+kuntal@ojha:~/linux/exp8$ 
 ```
 
