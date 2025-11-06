@@ -1,14 +1,3 @@
----
-outline: deep
----
-# Experiment 16:
-
-## Question:
-
-- **Write a C program to create a child process and allow the parent to display and the child to display  on the screen.**
-
-## Program:
-```c [exp-16.c]
 #include <stdio.h>
 #include <unistd.h>   // for fork(), getpid()
 #include <sys/types.h>
@@ -36,11 +25,3 @@ int main() {
 
     return 0;
 }
-
-```
-
-
-## Output
-```c
-
-```
