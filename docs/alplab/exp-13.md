@@ -103,5 +103,18 @@ int main(int argc, char *argv[]) {
 
 ## Output
 ```bash
+kuntal@ojha:~/linux/exp13$ ls -a
+.  ..  cse  exp13  exp13.c  input.txt
+kuntal@ojha:~/linux/exp13$ gcc exp13.c -o exp13
+kuntal@ojha:~/linux/exp13$ ./exp13
 
+Listing files in directory: .
+
+-rw-rw-r--  1 kuntal kuntal       64 Nov 06 15:52 input.txt
+-rw-rw-r--  1 kuntal kuntal     2237 Nov 06 15:52 exp13.c
+-rwxrwxr-x  1 kuntal kuntal    16560 Nov 06 15:54 exp13
+drwxrwxrwx 15 kuntal kuntal     4096 Nov 06 15:44 ..
+drwxrwxr-x  2 kuntal kuntal     4096 Nov 06 15:52 cse
+drwxrwxr-x  3 kuntal kuntal     4096 Nov 06 15:54 .
+kuntal@ojha:~/linux/exp13$ 
 ```
