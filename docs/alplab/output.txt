@@ -1,0 +1,4 @@
+Hello, this is a sample text file.
+This file will be copied using C program.
+You can add any text here you like.
+End of file.

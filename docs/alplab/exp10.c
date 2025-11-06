@@ -1,14 +1,3 @@
----
-outline: deep
----
-# Experiment 10:
-
-## Question:
-
-- **Write a c program that makes a copy of a file using standard I/O and system calls.**
-
-## Program:
-```c [exp-10.sh]
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
@@ -96,9 +85,3 @@ int main() {
 
     return 0;
 }
-```
-
-## Output
-```bash
-
-```
