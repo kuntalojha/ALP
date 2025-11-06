@@ -1,14 +1,3 @@
----
-outline: deep
----
-# Experiment 13:
-
-## Question:
-
-- **Write a C program to emulate the UNIX ls l command.**
-
-## Program:
-```c [exp-13.c]
 #include <stdio.h>
 #include <stdlib.h>
 #include <dirent.h>
@@ -97,11 +86,3 @@ int main(int argc, char *argv[]) {
     closedir(dir);
     return 0;
 }
-
-```
-
-
-## Output
-```bash
-
-```
