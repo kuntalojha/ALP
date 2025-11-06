@@ -11,41 +11,39 @@ outline: deep
 ```c [exp-15.c]
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>  // for dup2()
+#include <unistd.h>
 
 int main() {
+    char filename[100], message[500];
     FILE *file;
-    char filename[100];
-    char message[500];
+    int saved_out;
 
-    // Ask the user for file name
-    printf("Enter the file name to redirect output into: ");
+    printf("Enter file name: ");
     scanf("%s", filename);
+    getchar(); // clear newline
 
-    // Ask the user for message
-    printf("Enter the message to write into the file: ");
-    getchar(); // to clear newline from buffer
+    printf("Enter message: ");
     fgets(message, sizeof(message), stdin);
 
-    // Open the file in append mode
-    file = fopen(filename, "a+");
-    if (file == NULL) {
+    file = fopen(filename, "a");
+    if (!file) {
         perror("Error opening file");
-        exit(1);
+        return 1;
     }
 
-    // Redirect stdout to the file
-    dup2(fileno(file), fileno(stdout));
+    saved_out = dup(1);            // save current stdout
+    dup2(fileno(file), 1);         // redirect stdout to file
 
-    // Anything printed below will go into the file instead of the terminal
-    printf("%s", message);
+    printf("%s", message);         // this goes to file
+    fflush(stdout);
 
+    dup2(saved_out, 1);            // restore stdout
+    close(saved_out);
     fclose(file);
-    printf("Output has been redirected to '%s'.\n", filename);
 
+    printf("Message written to '%s'\n", filename);
     return 0;
 }
-
 ```
 
 
