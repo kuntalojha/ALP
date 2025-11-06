@@ -41,5 +41,8 @@
   },
   "devDependencies": {
     "vitepress": "^1.6.4"
+  },
+  "dependencies": {
+    "vue-pdf-embed": "^2.1.3"
   }
 }
