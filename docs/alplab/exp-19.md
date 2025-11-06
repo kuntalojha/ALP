@@ -9,6 +9,8 @@ outline: deep
 
 ## Program:
 ```c [exp-19.c]
+#include <sys/types.h>
+#include <sys/wait.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -70,10 +72,16 @@ int main() {
     return 0;
 }
 
+
 ```
 
 
 ## Output
 ```bash
-
+kuntal@ojha:~/linux/exp19$ gcc exp19.c -o exp19
+kuntal@ojha:~/linux/exp19$ ./exp19
+-rw-rw-r-- 1 kuntal kuntal  1320 Nov  7 00:52 exp19.c
+-rwxrwxr-x 1 kuntal kuntal 16304 Nov  7 00:52 exp19
+total 20
+kuntal@ojha:~/linux/exp19$ 
 ```
