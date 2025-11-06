@@ -49,5 +49,14 @@ int main() {
 
 ## Output
 ```bash
-
+kuntal@ojha:~/linux/exp15$ ls
+exp15.c
+kuntal@ojha:~/linux/exp15$ gcc exp15.c -o exp15
+kuntal@ojha:~/linux/exp15$ ./exp15
+Enter file name: output.txt
+Enter message: hello world!
+Message written to 'output.txt'
+kuntal@ojha:~/linux/exp15$ cat output.txt
+hello world!
+kuntal@ojha:~/linux/exp15$ 
 ```
