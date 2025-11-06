@@ -100,5 +100,31 @@ int main() {
 
 ## Output
 ```bash
+kuntal@ojha:~/linux/exp10$ ls
+exp10.c  input.txt
+kuntal@ojha:~/linux/exp10$ cat input.txt
+Hello, this is a sample text file.
+This file will be copied using C program.
+You can add any text here you like.
+End of file.
+kuntal@ojha:~/linux/exp10$ gcc exp10.c exp10
+/usr/bin/ld: cannot find exp10: No such file or directory
+collect2: error: ld returned 1 exit status
+kuntal@ojha:~/linux/exp10$ gcc exp10.c -o exp10
+kuntal@ojha:~/linux/exp10$ ./exp10
+1. Copy using Standard I/O
+2. Copy using System Calls
+Enter your choice: 1
+Enter source file name: input.txt
+Enter destination file name: output.txt
 
+File copied successfully using Standard I/O.
+kuntal@ojha:~/linux/exp10$ ls
+exp10  exp10.c  input.txt  output.txt
+kuntal@ojha:~/linux/exp10$ cat output.txt
+Hello, this is a sample text file.
+This file will be copied using C program.
+You can add any text here you like.
+End of file.
+kuntal@ojha:~/linux/exp10$ 
 ```
