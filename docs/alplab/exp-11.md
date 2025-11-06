@@ -112,5 +112,45 @@ int main() {
 
 ## Output
 ```bash
-
+kuntal@ojha:~/linux/exp11$ ls
+abc.txt  exp11  exp11.c  input.txt  student
+kuntal@ojha:~/linux/exp11$ cat input.txt
+Hello, World!
+This file contains sample text file.
+End of file.
+kuntal@ojha:~/linux/exp11$ gcc exp11.c -o exp11
+kuntal@ojha:~/linux/exp11$ ./exp11
+1. cat Display file content
+2. ls  List directory contents
+3. mv  Move/Rename file
+4. Exit
+Enter your choice: 1
+Enter file name: input.txt
+Hello, World!
+This file contains sample text file.
+End of file.
+1. cat Display file content
+2. ls  List directory contents
+3. mv  Move/Rename file
+4. Exit
+Enter your choice: 2
+Enter directory name: student
+.
+..
+file2.txt
+file1.txt
+Enter your choice: 3
+Enter source file name: abc.txt
+Enter destination file name: gef.txt
+File renamed or moved successfully.
+1. cat Display file content
+2. ls  List directory contents
+3. mv  Move/Rename file
+4. Exit
+Enter your choice: 
+4
+Exiting program.
+kuntal@ojha:~/linux/exp11$ ls
+exp11  exp11.c  gef.txt  input.txt  student
+kuntal@ojha:~/linux/exp11$ 
 ```
