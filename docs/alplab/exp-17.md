@@ -42,5 +42,13 @@ int main() {
 
 ## Output
 ```bash
-
+kuntal@ojha:~/linux/exp17$ ls
+exp17  exp17.c
+kuntal@ojha:~/linux/exp17$ gcc exp17.c -o exp17
+kuntal@ojha:~/linux/exp17$ ./exp17
+Parent process (PID: 14193) created a child (PID: 14194)
+Child process (PID: 14194) exiting...
+Parent is sleeping... check 'ps -l' to see the Zombie process.
+Parent exiting now, zombie will be cleared.
+kuntal@ojha:~/linux/exp17$ 
 ```
