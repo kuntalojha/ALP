@@ -42,5 +42,11 @@ int main() {
 
 ## Output
 ```c
-
+kuntal@ojha:~/linux/exp16$ gcc exp16.c -o exp16
+kuntal@ojha:~/linux/exp16$ ./exp16
+This is the PARENT process.
+Parent PID: 13406, Child PID: 13407
+This is the CHILD process.
+Child PID: 13407, Parent PID: 1721
+kuntal@ojha:~/linux/exp16$ 
 ```
