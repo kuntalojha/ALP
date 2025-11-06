@@ -45,5 +45,13 @@ int main() {
 
 ## Output
 ```bash
-
+kuntal@ojha:~/linux/exp18$ gcc exp18.c -o exp18
+kuntal@ojha:~/linux/exp18$ ./exp18
+Parent: My PID is 15480
+Parent: Child PID is 15481
+Child: My PID is 15481
+Child: My Parent PID is 15480
+Parent: Exiting now...
+kuntal@ojha:~/linux/exp18$ Child (after parent exit): My new Parent PID is 1721
+Child: I am now an orphan process!
 ```
