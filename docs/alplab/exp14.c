@@ -1,14 +1,3 @@
----
-outline: deep
----
-# Experiment 14:
-
-## Question:
-
-- **Write a C program to list for every file in a directory, its inode number and file name.**
-
-## Program:
-```c [exp-14.c]
 #include <stdio.h>
 #include <stdlib.h>
 #include <dirent.h>
@@ -44,11 +33,3 @@ int main(int argc, char *argv[]) {
     closedir(dir);
     return 0;
 }
-
-```
-
-
-## Output
-```bash
-
-```
