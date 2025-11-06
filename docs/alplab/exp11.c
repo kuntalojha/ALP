@@ -1,14 +1,3 @@
----
-outline: deep
----
-# Experiment 11:
-
-## Question:
-
-- **Implement in C the following UNIX commands using System calls A.cat B.ls C.mv**
-
-## Program:
-```c [exp-11.sh]
 #include <stdio.h>
 #include <stdlib.h>
 #include <fcntl.h>
@@ -19,7 +8,6 @@ outline: deep
 
 #define SIZE 1024
 
-// Function to display file content
 void my_cat(char *filename) {
     int fd;
     char buffer[SIZE];
@@ -37,7 +25,7 @@ void my_cat(char *filename) {
 
     close(fd);
 }
-// Function to list directory contents
+
 void my_ls(char *dirname) {
     DIR *dir;
     struct dirent *entry;
@@ -54,7 +42,7 @@ void my_ls(char *dirname) {
 
     closedir(dir);
 }
-// Function to move or rename a file
+
 void my_mv(char *src, char *dest) {
     if (rename(src, dest) == 0)
         printf("File renamed or moved successfully.\n");
@@ -106,11 +94,3 @@ int main() {
 
     return 0;
 }
-
-```
-
-
-## Output
-```bash
-
-```
