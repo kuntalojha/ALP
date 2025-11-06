@@ -50,5 +50,17 @@ int main(int argc, char *argv[]) {
 
 ## Output
 ```bash
+kuntal@ojha:~/linux/exp14$ ls -a
+.  ..  exp14  exp14.c  input.txt
+kuntal@ojha:~/linux/exp14$ gcc exp14.c -o exp14
+kuntal@ojha:~/linux/exp14$ ./exp14
 
+Inode Number    File Name
+---------------------------------
+   1966097      input.txt
+   1966094      exp14.c
+   1966101      exp14
+   1719635      ..
+   1966093      .
+kuntal@ojha:~/linux/exp14$ 
 ```
