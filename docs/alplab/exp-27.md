@@ -85,5 +85,15 @@ int main() {
 
 ## Output
 ```bash
+kuntal@ojha:~/linux/exp27$ touch shmfile
+kuntal@ojha:~/linux/exp27$ ls
+exp27.c  shmfile
+kuntal@ojha:~/linux/exp27$ gcc exp27.c -o exp27
+kuntal@ojha:~/linux/exp27$ ./exp27
+Parent Process: Enter a message: hello world
+Parent Process: Message written to shared memory.
+Child Process: Reading from shared memory...
+Data: hello world
 
+kuntal@ojha:~/linux/exp27$ 
 ```
