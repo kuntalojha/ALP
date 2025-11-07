@@ -95,5 +95,20 @@ int main() {
 
 ## Output
 ```bash
+kuntal@ojha:~/linux/exp24$ touch semfile
+kuntal@ojha:~/linux/exp24$ gcc exp24.c -o exp24
+kuntal@ojha:~/linux/exp24$ ./exp24
+Producer: Produced item 1
+Producer: Produced item 2
+Consumer: Consumed item 1
+Producer: Produced item 3
+Consumer: Consumed item 2
+Producer: Produced item 4
+Consumer: Consumed item 3
+Producer: Produced item 5
+Consumer: Consumed item 4
+Consumer: Consumed item 5
 
+All items produced and consumed successfully.
+kuntal@ojha:~/linux/exp24$ 
 ```
