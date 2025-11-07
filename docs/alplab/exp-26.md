@@ -130,3 +130,4 @@ int main() {
 }
 ```
 ## Output
+![Output](/images/exp26.png)
