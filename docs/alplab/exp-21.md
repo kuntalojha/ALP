@@ -63,5 +63,14 @@ int main() {
 
 ## Output
 ```bash
+untal@ojha:~/linux/exp21$ ls
+exp21.c  progfile
+kuntal@ojha:~/linux/exp21$ gcc exp21.c -o exp21
+kuntal@ojha:~/linux/exp21$ ./exp21
+Message 1 sent successfully (Priority = 1)
+Message 2 sent successfully (Priority = 2)
+Message 3 sent successfully (Priority = 3)
 
+All messages sent successfully!
+kuntal@ojha:~/linux/exp21$ 
 ```
