@@ -71,6 +71,5 @@ int main() {
 
 
 ## Output
-```bash
+![Output](/images/exp20.png)
 
-```
