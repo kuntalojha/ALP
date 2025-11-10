@@ -32,6 +32,13 @@ or Describe about files handling utilities?
 12. Implement a shell script that deletes all lines containing a specified word in one or more files supplied as arguments to it.
 
 ## Module 3
+1. Explain about the various types of files in Unix?
+2. What is a Zombie process? Discuss how it works with a suitable 
+example?
+3. What is an Orphan process? Discuss how it works with a suitable 
+example?
+4. Difference between Orphan Process	Zombie Process?
+5. Difference between Process and Thread?
 
 ## Module 4
 
